@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+
+# Node
+node_modules/
+.next/
+.env.local
+.env.*
+
+# Docker
+*.pid
+
+# Database
+postgres_data/
+redis_data/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.*
+backend/.env
+frontend/.env
